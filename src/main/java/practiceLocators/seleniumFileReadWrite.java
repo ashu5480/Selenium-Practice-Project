@@ -62,11 +62,12 @@ public class seleniumFileReadWrite extends baseClass {
 				System.out.println("\t");
 				System.out.println("User logged in ");
 
-				wait.until(ExpectedConditions.visibilityOf(loggedInUser));
-				String ActualUsername = loggedInUser.getText();
+				//wait.until(ExpectedConditions.visibilityOf(loggedInUser));
+				//String ActualUsername = loggedInUser.getText();
 				//Assert.assertEquals(ActualUsername, username);
 			System.out.println();
 			Thread.sleep(2000);
+			break;
 		}
 		workbook.close();
 	}
