@@ -66,7 +66,7 @@ public class seleniumFileReadWrite extends baseClass {
 				//String ActualUsername = loggedInUser.getText();
 				//Assert.assertEquals(ActualUsername, username);
 			System.out.println();
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			break;
 		}
 		workbook.close();
